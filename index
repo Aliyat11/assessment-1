@@ -1,0 +1,27 @@
+
+1. Token Count
+Sentence: “Artificial intelligence can analyse large amounts of data and find patterns”
+Token count: 11
+Explanation: A tokeniser breaks text into smaller pieces called tokens, which an AI model processes rather than reading text exactly as humans do.
+
+2. Context Overflow
+Example: I asked ChatGPT to remember my favourite colour, purple, and then continued adding many messages to the conversation. Eventually, the AI failed to recall the information correctly.
+Reconstructed example of the AI's reply : “I'm sorry, but I don't recall you telling me your favourite colour.”
+Explanation: A context window has a limit on how much information a model can consider at once. In a long conversation, earlier information may become unavailable, although this depends on how the model manages its context and memory.
+
+3. Temperature Comparison
+Prompt: “Write a short story about a student discovering a mysterious door.”
+First run - lower temperature (reconstructed example):
+A student named Alex discovered a small wooden door behind a bookshelf in the school library. When Alex opened it, there was a staircase leading to a quiet room filled with old books. Alex spent the afternoon exploring the room and found a diary belonging to the school's first headteacher. The discovery became a mystery that Alex was determined to solve.
+Second run - higher temperature (reconstructed example):
+During a storm, Maya noticed a glowing purple door floating above the floor of an empty classroom. When she touched its handle, the walls dissolved into a sky filled with silver rivers and flying cities. A voice whispered her name, revealing that every decision she had ever made existed in a different world behind a door. Maya stepped through, knowing she might never return to the life she knew.
+What changed: The first story follows a more predictable storyline, while the second uses more unusual imagery, imaginative events and unexpected ideas.
+Explanation: Temperature influences the randomness of a model's next-token choices. Lower temperatures generally produce more predictable responses, while higher temperatures can produce more varied and creative outputs. These examples illustrate the difference but are reconstructed rather than outputs recovered from the original runs.
+
+4. Hallucination
+Example: I asked ChatGPT to summarise a supposedly academic paper titled “The Impact of Large Language Model Temperature on Creative Response Generation” by Dr Emily Carter and James Wilson (2021). The paper was made up, but the AI could still generate a plausible-sounding summary.
+Reconstructed example of the AI's response:
+“The paper examines how temperature settings affect creativity in large language models. The authors report that higher temperature settings produced more diverse and original responses, while lower settings generated more predictable outputs.”
+Google search findings: The title and authors were invented for this experiment. A Google search did not establish that the paper existed. This illustrates why AI-generated academic references and summaries should be checked against reliable sources.
+Explanation: A hallucination occurs when an AI generates information that sounds believable but is false or unsupported. An AI may produce a convincing summary of a paper that does not exist, so academic sources should always be verified.
+
